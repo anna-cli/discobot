@@ -1,0 +1,13 @@
+[package]
+name = "discobot-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+serenity = { version = "0.11.5", features = ["voice"] }
+shuffle = "0.1.7"
+songbird = { version = "0.3.0", features = ["yt-dlp", "builtin-queue"] }
+tokio = { version = "1.21.2", features = ["rt-multi-thread"] }
